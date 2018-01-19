@@ -1,0 +1,14 @@
+python -m nmt.nmt.nmt \
+    --attention=scaled_luong \
+    --src=complex --tgt=simple \
+    --vocab_prefix=data/PWKP/vocab  \
+    --train_prefix=data/PWKP/train \
+    --dev_prefix=data/PWKP/val\
+    --test_prefix=data/PWKP/test\
+    --out_dir=data/PWKP/attention_model \
+    --num_train_steps=100000 \
+    --steps_per_stats=100 \
+    --num_layers=2 \
+    --num_units=128 \
+    --dropout=0.2 \
+    --metrics=bleu
