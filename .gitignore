@@ -1,6 +1,5 @@
 data
-.ipynb_checkpoints
 model
 nohup.out
-nmt
-subword-nmt
+.ipynb_checkpoints
+
