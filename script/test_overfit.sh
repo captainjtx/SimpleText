@@ -1,4 +1,4 @@
 python -m nmt.nmt.nmt\
-	--out_dir=data/PWKP/overfit_attention_model\
+	--out_dir=model/overfit_attention_glove\
 	--inference_input_file=data/PWKP/val.complex\
-	--inference_output_file=data/PWKP/overfit_attention_model/output_infer
+	--inference_output_file=data/PWKP/val.overfit
