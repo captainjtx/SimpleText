@@ -1,3 +1,6 @@
 [submodule "subword-nmt"]
 	path = subword-nmt
 	url = https://github.com/rsennrich/subword-nmt.git
+[submodule "seq2seq"]
+	path = nmt
+	url = https://github.com/captainjtx/nmt.git
