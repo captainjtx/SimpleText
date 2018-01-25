@@ -5,3 +5,4 @@ pandas
 tensorflow
 nltk
 matplotlib
+gensim
