@@ -1,3 +1,6 @@
 [submodule "seq2seq"]
 	path = nmt
 	url = https://github.com/captainjtx/nmt.git
+[submodule "textacy"]
+	path = textacy
+	url = https://github.com/chartbeat-labs/textacy.git
