@@ -2,5 +2,6 @@ data
 model
 nohup.out
 .ipynb_checkpoints
+test
 *.swp
 
