@@ -8,10 +8,10 @@ python -m nmt.nmt\
     --train_prefix=data/WikNet/good_partial.train.tok.bpe \
     --dev_prefix=data/WikNet/good_partial.val.tok.bpe \
     --test_prefix=data/WikNet/good_partial.test.tok.bpe \
-    --out_dir=model/nmt_attention_bpe_4_layers \
-    --num_train_steps=30000 \
+    --out_dir=model/nmt_attention_bpe_2_layers_lower \
+    --num_train_steps=20000 \
     --steps_per_stats=50 \
-    --num_layers=4 \
+    --num_layers=2 \
     --num_units=128\
     --dropout=0.25 \
     --metrics=bleu
