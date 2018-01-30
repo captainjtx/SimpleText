@@ -5,7 +5,7 @@ python -m nmt.nmt\
     --src=complex --tgt=simple \
     --vocab_prefix=data/WikNet/vocab.tok\
     --train_prefix=data/WikNet/good_partial.train.tok\
-    --embed_prefix=model/GloVe/glove.6B.300d\
+    --embed_prefix=model/GloVe/glove.6B.100d\
     --dev_prefix=data/WikNet/good_partial.val.tok\
     --test_prefix=data/PWKP/good_partial.test.tok\
     --out_dir=model/nmt_attention_glove \
