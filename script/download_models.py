@@ -53,6 +53,14 @@ if __name__ == "__main__":
         out_dir = os.path.dirname(os.path.realpath(__file__))
         logging.info("Saving files to: " + out_dir)
         
-    model = '1g9b1V04RA6U4x0mzHKmJUh_Eqw8bhmN2'
-    download_file_from_google_drive(model, 'model/nmt_attention_bpe_2_layers.zip')
-    os.system("unzip model/nmt_attention_bpe_2_layers.zip -d model/")
+    #NTS_model = '0B_pjS_ZjPfT9dEtrbV85UXhSelU' 
+    #NTS_model_output = 'NTS_epoch11_10.19.t7'
+    #download_file_from_google_drive(NTS_model, os.path.join(out_dir, NTS_model_output))
+
+    #NTS_w2v_model = '0B_pjS_ZjPfT9ZTRfSFp4Ql92U0E' 
+    #NTS_w2v_model_output = 'NTS-w2v_epoch11_10.20.t7'
+    #download_file_from_google_drive(NTS_w2v_model, os.path.join(out_dir, NTS_w2v_model_output))
+
+    model = '1q0QmPPOzpDW7R6MkCJIeUjDU2A1Imd9p'
+    download_file_from_google_drive(model, 'model/insight_models.zip')
+    os.system("unzip model/insight_models.zip -d model/")
