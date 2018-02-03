@@ -19,11 +19,12 @@ mkdir model
 python script/download_models.py
 ```
 
-4. Run inference on one of the pretrained models (seq2seq, 2-hidden layer LSTM with Attention, dropout 0.25 [more info](https://github.com/tensorflow/nmt)): 
+4. Run inference on one of the pretrained models (seq2seq, 2-hidden layer LSTM with Attention, dropout 0.25, [more info](https://github.com/tensorflow/nmt)). Default input is test/complex.tt, default output is test/inference.txt : 
 ```bash
 mkdir test
 cat "Science Fantasy is a genre where elements of science fiction and fantasy co-exist." > test/complext.txt
 ./script/test_attention.sh
+less test/inference.txt
 ```
 
 ## Retrain the model
