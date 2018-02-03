@@ -1,6 +1,6 @@
 # Neural Text Simplification Using Tensorflow
 
-This project is an exploration of dopting tensorflow's neural machine translation model ([nmt](https://github.com/tensorflow/nmt)) to text simplification task. It is similar to [Neural Text Simplification](https://github.com/senisioi/NeuralTextSimplification) which is based on [OpenNMT](https://github.com/OpenNMT/OpenNMT). 
+This project is an exploration of dopting tensorflow's neural machine translation model ([nmt](https://github.com/tensorflow/nmt)) to text simplification task. It is similar to [Neural Text Simplification](https://github.com/senisioi/NeuralTextSimplification) which is based on [OpenNMT](https://github.com/OpenNMT/OpenNMT). An interactive demo is server here at [www.simpletext.xyz](http://www.simpletext.xyz).
 
 ## Quick Start:
 1. Clone the repository to your local machine recursively:
